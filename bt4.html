@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>BANG DIEN THONG TIN</h2>
+    
+
+    <form action = "">
+        <div>
+        <label for ="Hoten">Họ và tên: </label>
+        <input tabindex="1"  type="text" />
+        </div>
+        <div>
+            <fieldset>
+                <legend> Giới tính</legend>
+                <label><input name="Gender" type="radio" checked>Nam</label>
+                <label><input name="Gender" type="radio">Nữ</label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="Ngaysinh">Ngày sinh</label>
+            <input type="Date"/>
+        </div>
+        <div>
+            <label for="Diem">Điểm</label>
+            <input type="number" max="10" min="o" step="0.25">
+        </div>
+        <div>
+            <label for="N">Nghề nghiệp:</label>
+            <input list="M" name="N" id="N">
+            <datalist id="M">
+                <option value="Lập trình viên">
+                    <option value="Kỹ sư phần mềm">
+                        <option value="Nhà thiết kế đồ họa">
+                        <option value="Quản lý dự án IT">
+                        <option value="Chuyên gia bảo mật">
+
+            </datalist>
+        </div>
+        <div>
+            <fieldset>
+                <legend> Sở thích:</legend>
+                <label><input name="hoddy" type="checkbox" value="1"/>Thể thao </label>
+                <label><input name="hoddy" type="checkbox" value="2"/>Du lịch </label>
+                <label><input name="hoddy" type="checkbox" value="3"/>  Âm nhạc </label>
+                <label><input name="hoddy" type="checkbox" value="4"/>Âm thực</label>
+            
+            </fieldset>
+        </div>
+        <div>
+            <Label>GHI CHÚ</Label><br>
+            <textarea rows="5" cols="40"></textarea>
+        </div>
+        <hr/>
+        <div>
+            <button type="submit">Đăng kí</button>
+            <button type="reset">Nhập lại</button>
+        </div>
+
+      
+     
+            
+       
+</body>
+</html>
